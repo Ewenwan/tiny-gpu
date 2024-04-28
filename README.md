@@ -1,5 +1,27 @@
 # tiny-gpu
 
+
+https://zhuanlan.zhihu.com/p/694996393
+
+
+指令集所有支持的指令集如下，够简单了。BRnzp - Branch instruction to jump to another line of program memory if the NZP register matches the nzp condition in the instruction.CMP - Compare the value of two registers and store the result in the NZP register to use for a later BRnzp instruction.ADD, SUB, MUL, DIV - Basic arithmetic operations to enable tensor math.LDR - Load data from global memory.STR - Store data into global memory.CONST - Load a constant value into a register.RET - Signal that the current thread has reached the end of execution.依赖Project
+
+IVerilogInstallation Guide​
+
+steveicarus.github.io/iverilog/usage/installation.html
+
+cocotbInstallation - cocotb 1.8.1 documentation​docs.cocotb.org/en/stable/install.html
+
+sv2v:
+
+SystemVerilog to Verilog
+
+GitHub - zachjs/sv2v: SystemVerilog to Verilog conversion​github.com/zachjs/sv2v
+
+波形文件查看 GTKWave​gtkwave.sourceforge.net/
+
+
+
 A minimal GPU implementation in Verilog optimized for learning about how GPUs work from the ground up.
 
 Built with <15 files of fully documented Verilog, complete documentation on architecture & ISA, working matrix addition/multiplication kernels, and full support for kernel simulation & execution traces.
